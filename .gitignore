@@ -1,0 +1,5 @@
+*.iml
+.idea/
+ajcore*.txt
+dependency-reduced-pom.xml
+target/

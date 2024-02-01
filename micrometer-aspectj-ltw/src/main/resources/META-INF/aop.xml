@@ -1,0 +1,9 @@
+<aspectj>
+  <weaver>
+    <include within="io.micrometer.core..*"/>
+    <include within="com.example..*"/>
+  </weaver>
+  <aspects>
+    <aspect name="io.micrometer.core.aop.TimedAspect"/>
+  </aspects>
+</aspectj>
